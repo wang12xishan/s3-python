@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="READ_ME" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping pattern="mysql_1" type="SQL" />
     </extensionMap>
   </component>
 </application>
