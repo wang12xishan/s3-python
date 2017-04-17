@@ -6,6 +6,7 @@
       <mapping pattern="test.html" type="PLAIN_TEXT" />
       <mapping pattern="cert" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
+      <mapping ext="sqlite3" type="PLAIN_TEXT" />
       <mapping pattern="mysql_1" type="SQL" />
     </extensionMap>
   </component>
