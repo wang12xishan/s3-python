@@ -1,5 +1,17 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
+    <driver id="2c343050-0f85-4795-93c6-d6d38f68fb87" name="db driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+      <url-template name="default" template="jdbc:sqlite:{file::identifier.sqlite}?" />
+      <artifact name="Xerial SQLiteJDBC" use="true" version="3.8.11.2" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license_2.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.16.1.jar</url>
+      </library>
+    </driver>
     <driver id="h2.unified" name="H2" dialect="H2">
       <artifact name="H2" use="true" />
       <option name="auto-sync" value="true" />
