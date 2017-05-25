@@ -5,6 +5,7 @@
       <mapping ext="ac" type="ActionScript" />
       <removed_mapping ext="as" type="ActionScript" />
       <mapping pattern="READ_ME" type="PLAIN_TEXT" />
+      <mapping pattern="异步非阻塞.text" type="PLAIN_TEXT" />
       <mapping pattern="cert" type="PLAIN_TEXT" />
       <mapping ext="me" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
